@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load("C:/Users/DELL/Downloads/model.pkl")  # Adjust path if needed
+model = joblib.load("model.pkl")  
 
 # Define feature order (make sure it matches your training data)
 FEATURES = ["CO", "NO", "NOX", "NO2", "O3", "PM10", "PM25", "RH", "SO2", "TMP", "WDR", "WSP", "traffic"]
